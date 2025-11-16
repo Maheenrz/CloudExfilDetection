@@ -6,33 +6,33 @@ An advanced security operations dashboard featuring AI-powered threat analysis, 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 1. 🌍 **Real-Time Threat Intelligence Map**
+### 1.  **Real-Time Threat Intelligence Map**
 - Interactive global threat visualization
 - Geographic distribution of anomalies
 - Heat-mapped threat levels by region
 - Live threat monitoring dashboard
 
-### 2. 🔍 **Advanced Anomaly Detection**
+### 2.  **Advanced Anomaly Detection**
 - Isolation Forest machine learning algorithm
 - Multi-dimensional feature analysis
 - Real-time anomaly scoring
 - Automated pattern recognition
 
-### 3. 🤖 **AI-Powered Security Assistant**
+### 3.  **AI-Powered Security Assistant**
 - Natural language security queries
 - Automated investigation reports
 - Context-aware threat analysis
 - Integrated with MegaLLM API (70+ AI models)
 
-### 4. 📊 **Comprehensive Analytics**
+### 4.  **Comprehensive Analytics**
 - Time-series anomaly trends
 - User behavior profiling
 - Device and action analytics
 - Correlation analysis
 
-### 5. 🔬 **Detailed Investigation Tools**
+### 5.  **Detailed Investigation Tools**
 - Per-anomaly deep-dive analysis
 - User behavior comparison
 - Risk scoring and metrics
@@ -40,7 +40,7 @@ An advanced security operations dashboard featuring AI-powered threat analysis, 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -76,7 +76,7 @@ streamlit run soc_copilot.py
 
 ---
 
-## 📋 How to Use
+##  How to Use
 
 ### Initial Setup
 1. **Configure API Key**: Enter your MegaLLM API key in the sidebar
@@ -85,19 +85,19 @@ streamlit run soc_copilot.py
 
 ### Dashboard Tabs
 
-#### 🌍 **Threat Map**
+####  **Threat Map**
 - View global threat distribution
 - Monitor active threats by region
 - Review recent threat detections
 - Click on markers for regional details
 
-#### 🔍 **Anomaly Detection**
+####  **Anomaly Detection**
 - Analyze detection distribution
 - View hourly anomaly patterns
 - Identify suspicious users
 - Examine action-based anomalies
 
-#### 💬 **AI Assistant**
+####  **AI Assistant**
 - Ask questions about security threats
 - Use suggested queries or custom questions
 - Get AI-powered insights and recommendations
@@ -106,13 +106,13 @@ streamlit run soc_copilot.py
   - "Who are the most suspicious users?"
   - "What regions show the highest threat levels?"
 
-#### 📊 **Analytics**
+####  **Analytics**
 - Review time-series trends
 - Analyze data transfer patterns
 - Examine device-based activity
 - Study feature correlations
 
-#### 🔬 **Investigation**
+####  **Investigation**
 - Select specific anomalies to investigate
 - View detailed event information
 - Compare with normal behavior patterns
@@ -120,7 +120,7 @@ streamlit run soc_copilot.py
 
 ---
 
-## 🎯 Anomaly Detection Features
+##  Anomaly Detection Features
 
 ### Detection Types
 1. **Large Data Downloads**
@@ -146,7 +146,7 @@ streamlit run soc_copilot.py
 
 ---
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Sidebar Settings
 - **API Key**: Your MegaLLM authentication key
@@ -169,7 +169,7 @@ n_estimators=250    # ML model complexity
 
 ---
 
-## 📊 Sample Queries for AI Assistant
+##  Sample Queries for AI Assistant
 
 **General Analysis:**
 - "Summarize the current security posture"
@@ -193,7 +193,7 @@ n_estimators=250    # ML model complexity
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### Tech Stack
 - **Frontend**: Streamlit
@@ -213,7 +213,7 @@ n_estimators=250    # ML model complexity
 
 ---
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 - **Dataset Size**: 10,000-12,000 logs
 - **Processing Time**: <5 seconds for full analysis
@@ -223,7 +223,7 @@ n_estimators=250    # ML model complexity
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - API keys are handled securely (password input)
 - No data persistence (session-based only)
@@ -233,77 +233,7 @@ n_estimators=250    # ML model complexity
 
 ---
 
-## 🎓 Educational Use Cases
 
-Perfect for:
-- **Academic Projects**: InfoSec, Cybersecurity courses
-- **ML Demonstrations**: Anomaly detection algorithms
-- **Dashboard Design**: Interactive security visualizations
-- **AI Integration**: Practical API implementation
-- **Portfolio Projects**: Full-stack security applications
-
----
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-**1. API Key Errors**
-```
-Error: 401 Unauthorized
-Solution: Verify your MegaLLM API key is correct
-```
-
-**2. Module Not Found**
-```
-ModuleNotFoundError: No module named 'X'
-Solution: pip install -r requirements.txt
-```
-
-**3. Slow Dashboard**
-```
-Issue: Dashboard loads slowly
-Solution: Reduce dataset size in sidebar (try 5000 logs)
-```
-
-**4. Charts Not Displaying**
-```
-Issue: Visualizations not showing
-Solution: Update Plotly: pip install --upgrade plotly
-```
-
----
-
-## 📝 Project Structure
-
-```
-soc-copilot/
-│
-├── soc_copilot.py          # Main dashboard application
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-│
-└── (Generated at runtime)
-    ├── Synthetic logs
-    ├── ML model
-    └── Session data
-```
-
----
-
-## 🌟 Future Enhancements
-
-Potential additions:
-- [ ] Real log file ingestion (CSV/JSON upload)
-- [ ] Historical data persistence (database)
-- [ ] Email alert notifications
-- [ ] PDF report generation
-- [ ] Multi-model ensemble detection
-- [ ] SIEM integration capabilities
-- [ ] Custom rule engine
-- [ ] User authentication system
-
----
 
 ## 📚 References
 
@@ -314,33 +244,14 @@ Potential additions:
 
 ---
 
-## 👥 Contributors
-
-Created as an Information Security academic project demonstrating:
-- AI/ML in cybersecurity
-- Anomaly detection techniques
-- Security visualization
-- Interactive dashboard design
-
----
-
 ## 📄 License
 
 This project is for educational purposes. Modify and use as needed for learning and academic projects.
 
 ---
 
-## 💡 Tips for Presentation
 
-1. **Start with Threat Map**: Show the visual impact immediately
-2. **Demonstrate AI Assistant**: Ask live questions to show intelligence
-3. **Deep-dive Investigation**: Pick a high-risk anomaly and investigate
-4. **Show Report Generation**: Generate and download an AI report
-5. **Explain ML Approach**: Discuss Isolation Forest advantages
-
----
-
-## 🎯 Key Differentiators
+##  Key Differentiators
 
 What makes this project exceptional:
 
@@ -355,4 +266,3 @@ What makes this project exceptional:
 
 **Built with ❤️ for Information Security Education**
 
-*For questions or improvements, feel free to enhance and modify!*
