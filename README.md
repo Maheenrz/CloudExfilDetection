@@ -40,41 +40,6 @@ An advanced security operations dashboard featuring AI-powered threat analysis, 
 
 ---
 
-##  Quick Start
-
-### Prerequisites
-- Python 3.8 or higher
-- MegaLLM API key (free tier available at [megallm.io](https://megallm.io))
-
-### Installation
-
-1. **Clone or download the project files:**
-```bash
-# Save the dashboard code as: soc_copilot.py
-# Save requirements.txt
-```
-
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Get your MegaLLM API key:**
-   - Visit [megallm.io](https://megallm.io)
-   - Sign up for free account
-   - Generate API key from dashboard
-
-4. **Run the dashboard:**
-```bash
-streamlit run soc_copilot.py
-```
-
-5. **Access the dashboard:**
-   - Open browser to: `http://localhost:8501`
-   - Enter your MegaLLM API key in the sidebar
-   - Start analyzing threats!
-
----
 
 ##  How to Use
 
